@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NZ-1" package="QFN48" speed="6" partNumber="GW1NZ-LV1QN48C6/I5"/>
+    <FileList>
+        <File path="D:/GoWinEDC/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/ipcore/DDS_II/data/dds_ii_top.v" type="verilog"/>
+        <File path="D:/GoWinEDC/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/ipcore/DDS_II/data/dds_ii_core_encryption.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="include_path" value="D:/GoWinEDC/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/ipcore/DDS_II/data"/>
+        <Option type="include_path" value="D:/GoWinEDC/dds_filter_base_v1.0/src/dds_ii/temp/dds_ii"/>
+        <Option type="output_file" value="dds_ii.vg"/>
+        <Option type="output_template" value="dds_ii_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="vcc" value="1.2"/>
+        <Option type="vccx" value="3.3"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

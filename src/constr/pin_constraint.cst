@@ -1,0 +1,20 @@
+//  pin_constraint.cst  ——  引脚约束
+//  器件：GW1NZ-LV1QN48C6/I5
+
+// 系统时钟 27 MHz
+IO_LOC  "clk" 47;
+IO_PORT "clk" IO_TYPE=LVCMOS33;
+
+// 按键输入，低电平有效，内部上拉
+IO_LOC  "key_a" 13;
+IO_PORT "key_a" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+IO_LOC  "key_b" 44;
+IO_PORT "key_b" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// 指示灯输出，共阳接法，低电平点亮
+IO_LOC  "led_r" 9;
+IO_PORT "led_r" IO_TYPE=LVCMOS33 DRIVE=8;
+
+IO_LOC  "led_b" 10;
+IO_PORT "led_b" IO_TYPE=LVCMOS33 DRIVE=8;

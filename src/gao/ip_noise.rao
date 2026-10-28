@@ -1,0 +1,38 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Lite</Mode>
+    <AoCore_Lite index="0" sample_clock="clk_half" trig_type="0" capture_amount="1024" implemention="0" input_register_enabled="0" capture_init_data_enabled="0" module_name="dds_top_noise_gao">
+        <SignalList>
+            <Bus capture_enable="true" name="fir_in[11:0]">
+                <Signal>fir_in[11]</Signal>
+                <Signal>fir_in[10]</Signal>
+                <Signal>fir_in[9]</Signal>
+                <Signal>fir_in[8]</Signal>
+                <Signal>fir_in[7]</Signal>
+                <Signal>fir_in[6]</Signal>
+                <Signal>fir_in[5]</Signal>
+                <Signal>fir_in[4]</Signal>
+                <Signal>fir_in[3]</Signal>
+                <Signal>fir_in[2]</Signal>
+                <Signal>fir_in[1]</Signal>
+                <Signal>fir_in[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="u_fir/data_out[11:0]">
+                <Signal>u_fir/data_out[11]</Signal>
+                <Signal>u_fir/data_out[10]</Signal>
+                <Signal>u_fir/data_out[9]</Signal>
+                <Signal>u_fir/data_out[8]</Signal>
+                <Signal>u_fir/data_out[7]</Signal>
+                <Signal>u_fir/data_out[6]</Signal>
+                <Signal>u_fir/data_out[5]</Signal>
+                <Signal>u_fir/data_out[4]</Signal>
+                <Signal>u_fir/data_out[3]</Signal>
+                <Signal>u_fir/data_out[2]</Signal>
+                <Signal>u_fir/data_out[1]</Signal>
+                <Signal>u_fir/data_out[0]</Signal>
+            </Bus>
+        </SignalList>
+    </AoCore_Lite>
+    <GAO_ID>0101001111100100</GAO_ID>
+</GAO_CONFIG>
